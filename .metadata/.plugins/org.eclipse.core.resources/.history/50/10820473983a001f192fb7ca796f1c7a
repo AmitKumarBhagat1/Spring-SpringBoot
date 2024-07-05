@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Style-Example</title>
+</head>
+<body>
+	<h1>Adding Styles and Hyperlinks in Thymeleaf</h1>
+</body>
+</html>

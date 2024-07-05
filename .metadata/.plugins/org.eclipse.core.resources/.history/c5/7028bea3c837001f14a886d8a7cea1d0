@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Conditional operator</title>
+</head>
+<body>
+	<h1>Conditional Statement in thymeleaf....</h1>
+	
+	<h2>user is <span th:style="${isActive} ? 'color:green':'color:red'" 
+					th:text="$ {isActive} ? 'Active' : 'Not Active'"></span></h2>
+</body>
+</html>

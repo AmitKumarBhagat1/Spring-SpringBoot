@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Thymeleaf</title>
+</head>
+<body>
+	<h1>About page</h1>
+	<h1>Wel-Come! </h1>
+	<h1>Hi! <span th:text="${#strings.toUpperCase(name)}"></span></h1>
+	<h3>Length of name:  <span th:text="${#strings.length(name)}"></span></h3>
+	<h1 th:text="${name}"></h1>
+	<h2 th:text="${date}"></h2>
+</body>
+</html>

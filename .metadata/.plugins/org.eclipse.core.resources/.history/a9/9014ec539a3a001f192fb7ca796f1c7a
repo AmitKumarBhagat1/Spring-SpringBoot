@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Style-Example</title>
+	<link rel="stylesheet" href="" th:href="@{/css/mycss.css}"/>
+</head>
+<body>
+	<div class="container">
+	
+	<img alt="img..." th:src="@{/img/yat bhawo1.jpg}" src="">
+	
+		<h1>Adding Styles and Hyperlinks in Thymeleaf</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			 Nobis ullam cum consequatur quibusdam sunt reprehenderit
+			  quidem architecto sint illo error. A omnis corrupti 
+			  accusantium facilis deleniti minima saepe excepturi 
+			  fugiat veritatis numquam ratione itaque rerum labore
+			   quaerat quis repudiandae dolorem. Minus sint sapiente 
+			   dolorum harum suscipit cum repudiandae rerum totam?
+		  </p>
+	</div>
+	<script type="" th:src="@{/js/myjs.js}"></script>
+</body>
+</html>

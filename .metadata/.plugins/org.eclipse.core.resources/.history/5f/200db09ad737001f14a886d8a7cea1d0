@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Footer template</title>
+</head>
+<body>
+	<footer id="fragmentTag" th:fragment="footer1">
+	<div class="container">
+		<hr><h1>Amit Kumar Bhagat</h1>
+		<h2>Java Full Stack Developer</h2>
+		<h3>Looking for a job as a Software developer</h3>
+	</div>
+	
+	</footer>
+</body>
+</html>

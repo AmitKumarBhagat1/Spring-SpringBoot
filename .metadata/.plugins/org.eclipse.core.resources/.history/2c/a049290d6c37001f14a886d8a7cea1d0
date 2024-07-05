@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Thymeleaf</title>
+</head>
+<body>
+	<h1>About page</h1>
+	<h1>Wel-Come! </h1>
+</body>
+</html>

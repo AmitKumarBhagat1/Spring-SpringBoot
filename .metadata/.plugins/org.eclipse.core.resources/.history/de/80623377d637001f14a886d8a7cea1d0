@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>footer</title>
+</head>
+<body>
+	<h1>Footer handler</h1>
+	<!-- adding footer using footer fragment -->
+	<footer id="hostTag" th:include="footer::footer1"></footer>
+	<h2>insert/include/replace</h2>
+</body>
+</html>

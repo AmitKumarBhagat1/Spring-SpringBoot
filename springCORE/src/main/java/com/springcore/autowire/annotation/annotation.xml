@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:annotation-config/>
+	<bean class="com.springcore.autowire.annotation.Subject" name="subject1">
+		<property name="subMarks">
+			<map>
+				<entry key="Maths" value="63"/>
+				<entry key="Science" value="79"/>
+				<entry key="Design" value="92"/>
+			</map>
+		</property>
+	</bean>
+		<bean class="com.springcore.autowire.annotation.Subject" name="subject">
+		<property name="subMarks">
+			<map>
+				<entry key="Social Science" value="83"/>
+				<entry key="SANSKRIT" value="61"/>
+				<entry key="Hindi" value="72"/>
+			</map>
+		</property>
+	</bean>
+	
+	
+	<bean class="com.springcore.autowire.annotation.Student" name="std1">
+		<property name="id" value="201"/>
+		<property name="name" value="Amit"/>
+	</bean>
+		
+		
+</beans>

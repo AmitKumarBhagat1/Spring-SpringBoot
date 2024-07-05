@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Styles in Thymeleaf</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Adding styles and hyperlinks in Thymeleaf</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+			Libero nesciunt dignissimos labore animi ex voluptatem aliquam 
+			modi temporibus itaque esse numquam blanditiis neque vel porro 
+			dolor excepturi dolorem cupiditate nulla.
+		</p>
+	</div>
+</body>
+</html>

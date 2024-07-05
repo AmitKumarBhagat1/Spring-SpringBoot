@@ -1,0 +1,22 @@
+package com.springvalidation.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.springvalidation.enity.Data;
+
+@Controller
+public class MyController {
+	
+	@GetMapping("/springform")
+	public String formpage(Model m)
+	{
+		System.out.println("Form page");
+		m.addAttribute("data", new Data());
+		return "form";
+	}
+	// handler for process form
+	
+
+}

@@ -1,0 +1,9 @@
+body {
+	padding-top:20px;
+	background:#e2e2e2;
+}
+section{
+	padding:30px;
+	background:blue;
+	color: white;
+}

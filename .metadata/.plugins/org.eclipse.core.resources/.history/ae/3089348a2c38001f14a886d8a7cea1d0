@@ -1,0 +1,7 @@
+body {
+	backgroung:#e2e2e2;
+}
+section{
+	background:blue;
+	color: white;
+}

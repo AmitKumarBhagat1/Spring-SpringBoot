@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="
+		http://www.springframework.org/schema/context"
+		xmlns:p="http://www.springframework.org/schema/p"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/util
+		http://www.springframework.org/schema/util/spring-util.xsd">
+		
+		<!-- xmlns:p="http://www.springframework.org/schema/p"(P SCHEMA)-->
+		
+		<!-- Standalone list -->
+		
+		<util:list list-class="java.util.LinkedList" id="carlist">
+			<value>Tata Nexon</value>
+			<value>Tata Safari</value>
+			<value>mahindra Thar</value>
+			<value>Mahnindra Scorpio</value>
+		</util:list>
+		
+		<util:set set-class="java.util.HashSet" id="trucklist">
+			<value>Tata Yodha</value>
+			<value>Tata Prime</value>
+			<value>Mahindra Blazo</value>
+			<value>Ashok Layland Dost</value>
+		</util:set>
+		
+		<util:map map-class="java.util.TreeMap" id="bikelist">
+			<entry key="Hero Splendor+" value="100CC"/>
+			<entry key="R.E  Bullet" value="350CC"/>
+			<entry key="Bajaj Pulsar" value="150CC"/>
+			<entry key="Yamaha R15" value="155CC"/>
+		</util:map>
+		
+		<bean class="com.springcore.standalone.collection.Vehicle" name="vehicle">
+			<property name="car" ref="carlist"/>
+			<property name="truck" ref="trucklist"/>
+			<property name="bike" ref="bikelist"/>
+		</bean>
+		
+</beans>

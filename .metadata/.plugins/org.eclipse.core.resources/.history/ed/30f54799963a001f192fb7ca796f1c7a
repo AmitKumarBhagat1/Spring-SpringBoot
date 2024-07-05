@@ -1,0 +1,12 @@
+package com.thymeleaf.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class StyleExampleController {
+
+	@GetMapping("/styleabcd")
+	public String styleExample()
+	{
+		return "stylesexam";
+	}
+}

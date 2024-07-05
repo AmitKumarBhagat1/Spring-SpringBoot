@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Footer template</title>
+</head>
+<body>
+	<footer>
+	<div class="container">
+		<h1>Amit Kumar Bhagat</h1>
+		<h2>java Full Stack Developer</h2>
+	</div>
+	
+	</footer>
+</body>
+</html>

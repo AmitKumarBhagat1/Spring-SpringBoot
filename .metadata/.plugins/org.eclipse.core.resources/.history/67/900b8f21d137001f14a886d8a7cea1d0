@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Conditional operator</title>
+</head>
+<body>
+	<h1>Elvis  in thymeleaf....</h1>
+	<!-- Elvis Operator is working as a conditional operator -->
+	<h2>user is <span th:style="${isActive} ? 'color:green':'color:red'" 
+					th:text="${isActive} ? 'Active' : 'Not Active'"></span></h2>
+
+
+	<h1>if-unless condition in thiemleaf....</h1>
+	<!-- if-unless is working as if-else condition -->
+	<h2 th:if="${gender}=='m'">User is male</h2>
+	<h2 th:unless="${gender}=='m'">User is female</h2>
+	
+	<h1>Switch condition in thymeleaf....</h1>
+	<div th:switch="${#list.size(mylist)}">
+		<h2 th:case=" '0' ">List Contain 0 element</h2>
+		<h2 th:case=" '1' ">List Contain 1 element</h2>
+		<h2 th:case=" '2' ">List Contain 2 element</h2>
+		<h2 th:case=" '*' ">List Contain many element</h2>
+	
+	</div>
+</body>
+</html>
